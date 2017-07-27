@@ -4,7 +4,7 @@ Given(/^I go to "(.*?)"$/) do |path|
 end
 
 When(/^I click "([^\"]*?)"$/) do |text|
-  click_on(text)
+  puts click_on(text)
 end
 
 When(/^I click the back button$/) do
@@ -191,6 +191,10 @@ end
 
 Then(/^I select "([^"]*)" from the "([^"]*)" menu$/) do |value, menu|
   page.select value, :from => menu
+end
+
+Then(/^I find the text area "([^"]*)" and set it to$/) do |textarea, text|
+  page.fill_in textarea, :with => text
 end
 
 Then(/^the menu "([^"]*)" should have "([^"]*)" selected$/) do |label, value|
