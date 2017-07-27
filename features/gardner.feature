@@ -22,11 +22,13 @@ Scenario: Email Cory Gardner
 	"""
 	I'm writing today to urge you to vote no on the 'skinny repeal' healthcare bill.
 	
-	If the bill passes it will do significant harm to Coloradans. I'm worried that the house will pass the bill unchanged, even though this is mostly a political tactic to take the bill into committee.
+	It seems like the senate is trying to use this bill as an sort of "end run" around the process. The idea is that this bill will pass and then there will be a conference with the house.
 	
-	This is a bad bill. You have already voted for 'repeal and replace' and straight repeal. You can convincingly claim to have fought to repeal Obamacare. This is not repeal. This is Obamacare light.
+	This is a bad idea, for several reasons. 1) The house could pass the bill as is an send it to the president. 2) In conference, if no alternate agreement is reached, then the bill will be sent to the President. 3) If a small group of representatives want the bill to pass, all they need to do is block progress on alternatives.
 	
-	Do the right things for Colorado. Show some leadership and act like an adult. The right thing to do at this point is to fix the flaws in Obamacare.
+	So please, only vote for the 'skinny repeal' if you are happy passing it. Becuase it will become likely to pass if the senate votes for it.
+	
+	Wouldn't it be better to slow down, and work on a replacement or an improved version of the bill in a more orderly fashion?
 	"""
 	
 	And I pause for "2" seconds

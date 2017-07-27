@@ -4,7 +4,7 @@ Given(/^I go to "(.*?)"$/) do |path|
 end
 
 When(/^I click "([^\"]*?)"$/) do |text|
-  puts click_on(text)
+  click_on(text)
 end
 
 When(/^I click the back button$/) do
