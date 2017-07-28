@@ -20,15 +20,22 @@ Scenario: Email Cory Gardner
 	And I enter "I am urging you to consider…" in the "Message Subject" field
 	And I find the text area "Message*" and set it to 
 	"""
-	I'm writing today to urge you to vote no on the 'skinny repeal' healthcare bill.
-	
-	It seems like the senate is trying to use this bill as an sort of "end run" around the process. The idea is that this bill will pass and then there will be a conference with the house.
-	
-	This is a bad idea, for several reasons. 1) The house could pass the bill as is an send it to the president. 2) In conference, if no alternate agreement is reached, then the bill will be sent to the President. 3) If a small group of representatives want the bill to pass, all they need to do is block progress on alternatives.
-	
-	So please, only vote for the 'skinny repeal' if you are happy passing it. Becuase it will become likely to pass if the senate votes for it.
-	
-	Wouldn't it be better to slow down, and work on a replacement or an improved version of the bill in a more orderly fashion?
+Dear Mr. Gardner,
+
+In my opinion you were wrong to vote for the Repeal/Replace bill. You were wrong on the Repeal-only bill. You were double extra wrong on the Skinny Repeal vote.
+
+What we need are group of more moderate centrists to work across party lines. I had hoped that you would be that kind of Senator.
+
+That would take courage though. You have to stick your neck out to work across the aisle. So far we haven’t seen much courage out of you.
+
+Maybe Graham’s more state centered approach to Healthcare could work? Maybe you could even find a large group in the center for this? I don’t know.
+
+Maybe the answer is to get to work on fixing the problems in Obamacare. It’s not the leftist system is has been sold as. And it definitely has problems. There is work to done.
+
+Here’s hoping we can expect better from you,
+
+John Phillips
+Colorado Native and long time Sunnyside Resident.
 	"""
 	
 	And I pause for "2" seconds
