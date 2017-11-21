@@ -16,26 +16,21 @@ Scenario: Email Cory Gardner
 	And I enter "303-555-1212" in the "Phone Number*" field
 	And I enter "nospam@infomongo.com" in the "Email*" field
 	And I enter "nospam@infomongo.com" in the "Verify Email" field
-	And I select "Insurance Health" from the "Message Topic" menu
+	# And I select "Insurance Health" from the "Message Topic" menu
+	And I select "Commerce" from the "Message Topic" menu
 	And I enter "I am urging you to consider…" in the "Message Subject" field
 	And I find the text area "Message*" and set it to 
 	"""
-Dear Mr. Gardner,
+Senator Gardner,
 
-In my opinion you were wrong to vote for the Repeal/Replace bill. You were wrong on the Repeal-only bill. You were double extra wrong on the Skinny Repeal vote.
+I’m writing today to urge you to publicly oppose the FCC’s plan to end Net Neutrality. In countries without this protection, like Portugal, consumers pay higher prices for worse service.
 
-What we need are group of more moderate centrists to work across party lines. I had hoped that you would be that kind of Senator.
+The open internet has been a boon to business. I have spent the last 20 years working in technology and on the web. Net Neutrality protects free speech and innovation. Ending it only benefits large ISPs. We need more competition in broadband internet. In Denver, Comcast and CenturyLink have a duopoly on providing broadband internet access. This only makes them stronger and less responsive to customers.
 
-That would take courage though. You have to stick your neck out to work across the aisle. So far we haven’t seen much courage out of you.
+Please speak out against the FCC’s plan to end Net Neutrality.
 
-Maybe Graham’s more state centered approach to Healthcare could work? Maybe you could even find a large group in the center for this? I don’t know.
-
-Maybe the answer is to get to work on fixing the problems in Obamacare. It’s not the leftist system is has been sold as. And it definitely has problems. There is work to done.
-
-Here’s hoping we can expect better from you,
-
+Thanks,
 John Phillips
-Colorado Native and long time Sunnyside Resident.
 	"""
 	
 	And I pause for "2" seconds
